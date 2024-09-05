@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Basic Page Needs -->
+  <meta charset="utf-8">
+  <title>理科レント</title>
+  <meta name="description" content="科学が浸透した社会へ">
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS -->
+  <link rel="stylesheet" href="skeleton.css">
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    .navbar-item li {
+      display: inline-block;
+      margin: 10px;
+    }
+    .navbar-item a {
+      padding: 10px 15px;
+      background-color: #ECECEC;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .navbar-item a:hover {
+      background-color: #555;
+      color: #fff;
+    }
+    .docs-header {
+      color: #333;
+      font-size: 2.5em;
+      text-align: center;
+      margin-top: 20px;
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .D, .F {
+      font-size: 1.5em;
+      font-weight: bold;
+      cursor: pointer;
+      background-color: #ECECEC;
+      padding: 10px;
+      margin-top: 20px;
+      text-align: center;
+      border: 1px solid #333;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .D:hover, .F:hover {
+      background-color: #333;
+      color: #fff;
+    }
+    .E, .G {
+      display: none;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+    }
+  </style>
+  <script>
+    $(function() {
+      $(".D, .F").click(function() {
+        $(this).next().slideToggle();
+      });
+    });
+  </script>
+  <!-- Favicon -->
+  <link rel="icon" href="photo/favicon.ico">
+</head>
+<body>
+  <div class="container">
+    <h1 class="docs-header">理科レントへようこそ！</h1>
+    <nav class="navbar">
+      <ul class="navbar-item">
+        <li><a href="index.html">トップ</a></li>
+        <li><a href="mmv.html">Mission, Vision, Value</a></li>
+        <li><a href="customer.html">個人サービス</a></li>
+        <li><a href="company.html">法人サービス</a></li>
+        <li><a href="sci-up.html">Sci-Up</a></li>
+        <li><a href="brochure.html">資料一覧</a></li>
+        <li><a href="qanda.html">化学の質問</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    
+    <div class="docs-section">
+      <h4>最新情報</h4>
+      <p>2024/8/27: <a href="class.html#24STchem7">ホームページを作成しました。</a></p>
+    </div>
+
+    <div class="docs-section">
+      <h4>理科レントとは？</h4>
+      <p>代々木ゼミナール化学講師、2025年に理科レントを立ち上げる。</p>
+      <img src="photo/saionji-photo.jpg" alt="講師写真" width="200" height="150">
+      <img src="photo/penguin_mol.png" alt="ペンギン" width="200" height="150">
+      
+      <div class="D">＋問題意識</div>
+      <div class="E">
+        <p>宇都宮出身、教育経験豊富。様々な生徒に対応可能。</p>
+      </div>
+      
+      <div class="F">＋詳細</div>
+      <div class="G">
+        <p>広い分野に渡る教育経験、科学をわかりやすく指導。</p>
+      </div>
+    </div>
+
+    <div class="four columns">
+      <a href="https://twitter.com/saionji_chem" class="twitter-follow-button">Follow @saionji_chem</a>
+    </div>
+
+    <footer>
+      <p>Copyright: 理科レント LLC</p>
+      <p><a href="site-map.html">サイトマップ</a> / <a href="link.html">リンク</a> / <a href="aboutc.html">会社概要</a> / <a href="inv.html">採用情報</a></p>
+      <p><a href="#">上に戻る</a></p>
+    </footer>
+  </div>
+</body>
+</html>
