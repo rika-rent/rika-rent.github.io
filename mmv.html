@@ -1,20 +1,87 @@
-Mission： 科学が浸透した社会へ
-Vision：
-・生涯を通して科学を学んだり体験したりできるようにする
-・都会だけではなく地方にも科学の知見が根ざすようにする
-Value：
-・科学をわかりやすく、かつ誠実に伝える
-・選択肢を広く提示する
-・地方またはオンラインでの活動を主軸とする
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Basic Page Needs -->
+  <meta charset="utf-8">
+  <title>MMVについて</title>
+  <meta name="description" content="科学が浸透した社会へ">
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS -->
+  <link rel="stylesheet" href="skeleton.css">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <!-- Toggle Function for Details -->
+  <script>
+  $(function() {
+      $(".toggle").click(function() {
+          $(this).next(".details").slideToggle();
+      });
+  });
+  </script>
+  <style>
+    .toggle {
+      display: block;
+      font-size: 1.5em;
+      border: solid;
+      padding: 0.25em 0.5em;
+      color: black;
+      background: #ECECEC;
+      cursor: pointer;
+      margin-bottom: 0.5em;
+    }
+    .toggle:hover {
+      background: black;
+      color: white;
+    }
+    .details {
+      display: none;
+    }
+  </style>
+</head>
 
-教育観
-1. 自分で勉強できるようにする
-教育で本当はやりたいのはティーチングではなく・・・コーチング（違いを図に表す）
-2. 時代の潮流を担う
-ChatGPTやAIなどを利用した教育（一方でつまらない勉強にしないようにしたい）
-3. 科学って楽しいって思うようになる
-4. 地域の教育格差を無くしていく
+<body>
+  <div class="container">
+    <h1>Mission, Vision, and Value</h1>
+    <h2>Mission</h2>
+    <p>科学が浸透した社会へ</p>
+    
+    <h2>Vision</h2>
+    <ul>
+      <li>生涯を通して科学を学んだり体験したりできるようにする</li>
+      <li>都会だけではなく地方にも科学の知見が根ざすようにする</li>
+    </ul>
+    
+    <h2>Value</h2>
+    <ul>
+      <li>科学をわかりやすく、かつ誠実に伝える</li>
+      <li>選択肢を広く提示する</li>
+      <li>地方またはオンラインでの活動を主軸とする</li>
+    </ul>
 
-slideshareで資料を作成する
+    <h2>教育観</h2>
+    <div class="toggle">＋ 自分で勉強できるようにする</div>
+    <div class="details">
+      <p>教育で本当はやりたいのはティーチングではなく、コーチング（違いを図に表す）。</p>
+    </div>
+    
+    <div class="toggle">＋ 時代の潮流を担う</div>
+    <div class="details">
+      <p>ChatGPTやAIなどを利用した教育を推進し、一方でつまらない勉強にしないように工夫。</p>
+    </div>
+    
+    <div class="toggle">＋ 科学って楽しいって思うようになる</div>
+    <div class="details">
+      <p>生徒に科学の魅力を感じてもらう教育を目指す。</p>
+    </div>
+    
+    <div class="toggle">＋ 地域の教育格差を無くしていく</div>
+    <div class="details">
+      <p>地方でも質の高い科学教育を提供し、教育格差をなくしていくことを目指す。</p>
+    </div>
 
-
+    <h2>資料作成ツール</h2>
+    <p>資料はSlideshareを活用して作成します。</p>
+  </div>
+</body>
+</html>
