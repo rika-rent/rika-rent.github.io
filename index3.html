@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>理科レント</title>
+  <meta name="description" content="科学が浸透した社会へ">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: url('image1.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    nav {
+      background-color: rgba(51, 51, 51, 0.8);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+      list-style: none;
+      margin: 0;
+    }
+    nav ul li {
+      margin: 0 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    section {
+      padding: 4rem 1rem;
+      text-align: center;
+      background-color: #fff;
+      margin: 2rem 0;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    h4 {
+      font-size: 2em;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+      nav ul {
+        flex-direction: column;
+      }
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>理科レントへようこそ！</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#top">トップ</a></li>
+    <li><a href="#mission">Mission</a></li>
+    <li><a href="#services">個人サービス</a></li>
+    <li><a href="#company">法人サービス</a></li>
+    <li><a href="#contact">お問い合わせ</a></li>
+  </ul>
+</nav>
+
+<section id="latest">
+  <h4>最新情報</h4>
+  <p>2024/8/27: <a href="class.html#24STchem7">ホームページを作成しました。</a></p>
+</section>
+
+<section id="about">
+  <h4>理科レントとは？</h4>
+  <p>代々木ゼミナール化学講師、2025年に理科レントを立ち上げる。</p>
+  <img src="photo/saionji-photo.jpg" alt="講師写真" width="200" height="150">
+  <img src="photo/penguin_mol.png" alt="ペンギン" width="200" height="150">
+</section>
+
+<section id="mission">
+  <h4>ミッション・ビジョン・バリュー</h4>
+  <p>私たちの目指すものをここに記述します。</p>
+</section>
+
+<section id="contact">
+  <h4>お問い合わせ</h4>
+  <p>ご質問は<a href="contact.html">こちらからどうぞ</a>。</p>
+</section>
+
+<footer>
+  <p>Copyright: 理科レント LLC</p>
+  <p><a href="site-map.html" style="color: white;">サイトマップ</a> / <a href="link.html" style="color: white;">リンク</a></p>
+  <p><a href="#" style="color: white;">上に戻る</a></p>
+</footer>
+
+</body>
+</html>
